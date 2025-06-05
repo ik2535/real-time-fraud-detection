@@ -6,7 +6,7 @@ A comprehensive, production-ready fraud detection solution built with modern MLO
 
 ```
 ┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐
-│   Transaction   │───▶│    Kafka     │───▶│   Inference     │
+│   Transaction   │──▶│    Kafka     │───▶│   Inference     │
 │   Producer      │    │   Streaming  │    │   Pipeline      │
 └─────────────────┘    └──────────────┘    └─────────────────┘
                               │                      │
